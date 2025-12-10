@@ -31,6 +31,7 @@ The goal of the project is to practice:
 └── requirements.txt         # (recommended – see below)
 
 ## How to Run Locally  
+**Prerequisites:** Python 3.8+ installed.
 
 1. Clone the repository  
    ```bash
@@ -42,8 +43,18 @@ The goal of the project is to practice:
    .venv\Scripts\activate       # Windows
 3. Install dependencies
    pip install streamlit pandas plotly
+   pip install -r requirements.txt
+
 4. Launch the dashboard
    streamlit run app.py
+   
 
 ## Live URL
 Live link: [https://sdt4-1.onrender.com](https://sdt4-1.onrender.com)
+
+##Tech Stack
+
+Python
+Streamlit (for the web app)
+Pandas (data manipulation)
+Plotly (interactive visualizations)
